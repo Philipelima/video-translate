@@ -7,7 +7,7 @@
 
 Have you ever thought about translate a YouTube video? That is the idea for this project. 
 
-## How's it works?
+## How it works?
 
 Consuming a set of python modules and a text-to-speech api from AssemblyAI, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user. 
 
