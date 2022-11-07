@@ -1,0 +1,18 @@
+[ok] perguntar a url do video;
+
+[ok] dowload do video com pytube;
+[ok] converter mp4 para mp3 com moviepy;
+[ok] pegar o texto do aúdio AssemblyIA (speech to text);
+
+[ok] traduzir com o serviço de tradução MyMemoryTranslator;
+[ok] tranformar em audio novamente com gTTs (text to speech);
+[] mesclar o audio com o video novamente;
+
+
+vide test: https://www.youtube.com/watch?v=Apnrru25D_0
+
+dependencias possiveis: 
+
+    - pytube
+    - gTTs 
+    - pyttsx3
