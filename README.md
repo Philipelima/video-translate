@@ -6,3 +6,7 @@
 ![Python](https://img.shields.io/static/v1?label=deep_translator&labelColor=7335da&message=+v1.9.1&color=000000&logo=Python&logoColor=ffffff&style=flat-square)
 
 Have you ever thought about translate a YouTube video? That is the idea for this project. 
+
+## How's it works?
+
+Consuming a set of python modules and a text-to-speech api from AssemblyAI, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user.
