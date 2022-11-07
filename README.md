@@ -9,4 +9,8 @@ Have you ever thought about translate a YouTube video? That is the idea for this
 
 ## How's it works?
 
-Consuming a set of python modules and a text-to-speech api from AssemblyAI, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user.
+consuming a set of python modules and a text-to-speech api from AssemblyAI, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user. 
+
+When the download is finished, the pymovie module is called to create an .mp3 file from the downloaded .mp4. 
+
+When the file creation is finished, the api for AssemblyAI's text-to-speech service is requested, sending the .mp3 file as data, the api returns a string containing what is said in the audio.
