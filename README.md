@@ -4,6 +4,7 @@
 ![python](https://img.shields.io/static/v1?label=pytube&labelColor=dd3838&message=v12.1.0&color=000000&logo=python&logoColor=ffffff&style=flat-square)
 ![](https://img.shields.io/static/v1?label=AssemblyAI&labelColor=7335da&message=+v2&color=000000&logo=&logoColor=ffffff&style=flat-square)
 ![Python](https://img.shields.io/static/v1?label=deep_translator&labelColor=7335da&message=+v1.9.1&color=000000&logo=Python&logoColor=ffffff&style=flat-square)
+![azure ](https://img.shields.io/static/v1?label=Azure+TTS&labelColor=0778ba&message=+v3.0&color=000000&logo=azure+&logoColor=ffffff&style=flat-square)
 
 Have you ever thought about translate a YouTube video? That is the idea for this project. 
 
