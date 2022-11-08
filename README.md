@@ -13,4 +13,4 @@ Consuming a set of python modules and a text-to-speech api from AssemblyAI, the 
 
 When the download is finished, the pymovie module is called to create an .mp3 file from the downloaded .mp4. 
 
-When the file creation is finished, the api for AssemblyAI's text-to-speech service is requested, sending the .mp3 file as data, the api returns a string containing what is said in the audio.
+When the file creation is finished, the api for AssemblyAI's text-to-speech service is requested, sending the .mp3 file as data, the api returns a text containing what is said in the audio.
