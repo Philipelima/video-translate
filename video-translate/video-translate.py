@@ -31,12 +31,10 @@ def run():
 
     converter.change_audio_from_video('audio.mp3')
      
-    utils.remove_file(videoPath)
-    utils.remove_file('audio.mp3')
-
     print(videoUrl+" has been successfully translated");
     
-
+    utils.remove_file(videoPath)
+    utils.remove_file('audio.mp3') 
    
 
 def set_url():
