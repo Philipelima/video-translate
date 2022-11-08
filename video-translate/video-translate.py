@@ -8,11 +8,13 @@ from converter import Converter
 from transcribe import Transcribe
 from translate  import Translator
 
+from speech import Speech
 
 def run():
 
     set_url();
 
+    azure_key = settings.AZURE_SPEECH_SERVICE
     videoPath = video_download()
 
     converter = Converter(videoPath)
@@ -24,14 +26,18 @@ def run():
     translator =  Translator(transcribe)
     translate  =  translator.to('pt')
 
-    audioPath  =  converter.text_to_audio(translate)
-    converter.change_audio_from_video(audioPath)
+    speech  = Speech(azure_key=azure_key, region='brazilsouth')
+    speech.text_to_mp3(translate)
+
+    converter.change_audio_from_video('audio.mp3')
     
     utils.remove_file(videoPath)
-    utils.remove_file(audioPath)
+    utils.remove_file('audio.mp3')
 
     print(videoUrl+" has been successfully translated");
+    
 
+   
 
 def set_url():
     
