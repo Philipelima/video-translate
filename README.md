@@ -17,4 +17,6 @@ When the download is finished, the pymovie module is called to create an .mp3 fi
 When the file creation is finished, the api for AssemblyAI's text-to-speech service is requested, sending the .mp3 file as data, the api returns a text containing what is said in the audio.
 
 
-![works](./images/how_it_works.png)
+<p align="center" width="100%">
+    <img width="33%" src="./images/how_it_works.png"> 
+</p>
