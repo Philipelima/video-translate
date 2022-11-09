@@ -29,11 +29,7 @@ Have you ever thought about translate a YouTube video? That is the idea for this
 | **Azure TTS Service** | v3 | [Azure Text to Speech](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/#overview)
 
 
-### Supported languages:
 
-  * Portuguese
-
-Note: english to spanish comming soon
 
 ### Basic usage:
 
@@ -72,3 +68,8 @@ With the audio mp3 translation created, now moviepy is called again so that it c
 <br>
 <br>
 
+### Supported languages:
+
+  * Portuguese
+
+Note: english to spanish comming soon
