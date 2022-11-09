@@ -30,7 +30,7 @@ With the audio mp3 translation created, now moviepy is called again so that it c
     <img width="33%" heigth="40%" src="./images/how_it_works.png"> 
 </p>
 
-### Dependencies: 
+### Dependencies and API Integrations: 
 
 |  **module**    | **version**  |     
 |:----------:|:----------:| 
@@ -38,7 +38,7 @@ With the audio mp3 translation created, now moviepy is called again so that it c
 | **deep_translator** | v1.9.1
 
 
-### API Integrations 
+###  
 
 |  **api**    | **version** | **link**   
 |:----------:|:----------:| :--------
