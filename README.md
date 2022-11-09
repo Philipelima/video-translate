@@ -8,7 +8,7 @@
 
 Have you ever thought about translate a YouTube video? That is the idea for this project. 
 
-## How it works?
+### How it works?
 
 Consuming a set of python modules, a speech-to-text api from AssemblyAI and the Azure text-to-speech service, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user. 
 
@@ -30,7 +30,7 @@ With the audio mp3 translation created, now moviepy is called again so that it c
     <img width="33%" heigth="40%" src="./images/how_it_works.png"> 
 </p>
 
-## Dependencies: 
+### Dependencies: 
 
 |  **module**    | **version**  |     
 |:----------:|:----------:| 
@@ -38,7 +38,7 @@ With the audio mp3 translation created, now moviepy is called again so that it c
 | **deep_translator** | v1.9.1
 
 
-## API Integrations 
+### API Integrations 
 
 |  **api**    | **version**    
 |:----------:|:----------:|
