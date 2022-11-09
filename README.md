@@ -29,3 +29,18 @@ With the audio mp3 translation created, now moviepy is called again so that it c
 <p align="center" width="100%">
     <img width="33%" heigth="40%" src="./images/how_it_works.png"> 
 </p>
+
+## Dependencies: 
+
+|  **module**    | **version**  |     
+|:----------:|:----------:| 
+| **pytube**     | v12.1.0 | 
+| **deep_translator** | v1.9.1
+
+
+## API Integrations 
+
+|  **api**    | **version**    
+|:----------:|:----------:|
+| **AssemblyAI**     | v2
+| **Azure TTS Service** | v3
