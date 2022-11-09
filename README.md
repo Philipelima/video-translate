@@ -40,7 +40,7 @@ With the audio mp3 translation created, now moviepy is called again so that it c
 
 ### API Integrations 
 
-|  **api**    | **version**    
-|:----------:|:----------:|
-| **AssemblyAI**     | v2
-| **Azure TTS Service** | v3
+|  **api**    | **version** | **link**   
+|:----------:|:----------:| :--------
+| **AssemblyAI**     | v2 | [AssemblyAI Speech to Text](https://assemblyai.com/)
+| **Azure TTS Service** | v3 | [Azure Text to Speech](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/#overview)
