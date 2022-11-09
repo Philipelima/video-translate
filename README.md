@@ -8,7 +8,32 @@
 
 Have you ever thought about translate a YouTube video? That is the idea for this project. 
 
+
+### Dependencies and API Integrations: 
+<br>
+
+
+|  **module**    | **version**  | **link**    
+|:----------:|:----------:| :-----------------
+| **pytube**     | v12.1.0 |  [documentation](https://pytube.io/en/latest/)
+| **deep_translator** | v1.9.1 | [documentation](https://deep-translator.readthedocs.io/en/latest/)
+| **pymovie** | v1.0.2  | [documentation](https://zulko.github.io/moviepy/)
+
+
+<br>
+
+
+|  **api**    | **version** | **link**   
+|:----------:|:----------:| :--------
+| **AssemblyAI**     | v2 | [AssemblyAI Speech to Text](https://assemblyai.com/)
+| **Azure TTS Service** | v3 | [Azure Text to Speech](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/#overview)
+
+<br>
+<br>
+
 ### How it works?
+<br>
+<br>
 
 Consuming a set of python modules, a speech-to-text api from AssemblyAI and the Azure text-to-speech service, the video-translate system downloads the video with the pytube module based on its url, which must be entered by the user. 
 
@@ -30,17 +55,19 @@ With the audio mp3 translation created, now moviepy is called again so that it c
     <img width="33%" heigth="40%" src="./images/how_it_works.png"> 
 </p>
 
-### Dependencies and API Integrations: 
 
-|  **module**    | **version**  |     
-|:----------:|:----------:| 
-| **pytube**     | v12.1.0 | 
-| **deep_translator** | v1.9.1
+<br>
+<br>
+
+### Supported languages:
+
+  * Portuguese
+
+Note: english to spanish comming soon
+
+### Basic usage:
 
 
-###  
-
-|  **api**    | **version** | **link**   
-|:----------:|:----------:| :--------
-| **AssemblyAI**     | v2 | [AssemblyAI Speech to Text](https://assemblyai.com/)
-| **Azure TTS Service** | v3 | [Azure Text to Speech](https://azure.microsoft.com/en-us/products/cognitive-services/text-to-speech/#overview)
+~~~bash
+    python3 video-translate/video-translate.py
+~~~
